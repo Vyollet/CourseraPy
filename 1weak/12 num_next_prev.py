@@ -1,5 +1,5 @@
 n = int(input())
 next = n + 1
 prev = n - 1
-print(f"Следующее число от {n} это {next}.")
-print(f"Предыдущее число от {n} это {prev}.")
+print(f"The next number for the number {n} is {next}.")
+print(f"The previous number for the number {n} is {prev}.")
