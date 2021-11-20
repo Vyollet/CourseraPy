@@ -1,0 +1,6 @@
+fSpisok = map(int, input().split())
+sSpisok = map(int, input().split())
+fSet = set(fSpisok)
+sSet = set(sSpisok)
+lSet = (fSet & sSet)
+print(*sorted(lSet))
